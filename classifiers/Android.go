@@ -30,7 +30,7 @@ func (Android) Eval(ua string, desc *Describer) bool {
 				}
 				part = strings.Split(part, "build")[0]
 
-				desc.Model = regexModel.FindString(strings.ToTitle(part))
+				desc.Model = regexModel.FindString(strings.Replace(part, "android", "Android", 1))
 			}
 		}
 
