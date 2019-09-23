@@ -33,17 +33,15 @@ var ua = []string{
 	"Mozilla/5.0 (Linux; arm; Android 6.0.1; NEXBOX-A95X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 YaBrowser/19.7.0.117.01 Safari/537.36",
 	"Mozilla/5.0 (PlayStation 4.0) AppleWebKit/537.73 (KHTML like Gecko)",
 	"Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17117",
-	"",
-	"",
-	"",
-	"",
-	}
+}
 
 func TestParse(t *testing.T) {
-	for _,userAgent := range ua{
+	for _, userAgent := range ua {
 		parsed := uagent.Parse(userAgent)
-		if parsed.Device != ""{
-		log.Info("%s \r\n%+v\r\n______________________\r\n",userAgent,parsed)
+		if parsed.Device != "" {
+			log.Info("%s \r\n%+v\r\n______________________\r\n", userAgent, parsed)
+		} else {
+			log.Error("%s \r\n%+v\r\n______________________\r\n", userAgent, parsed)
 		}
 	}
 }

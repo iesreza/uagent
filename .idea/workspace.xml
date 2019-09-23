@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d341fa6-741d-40b5-9995-787e552c8199" name="Default Changelist" comment="" />
+    <list default="true" id="2d341fa6-741d-40b5-9995-787e552c8199" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/classifiers/WebBrowser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifiers/classifiers.go" beforeDir="false" afterPath="$PROJECT_DIR$/classifiers/classifiers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/parser_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="211">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
               </folding>
@@ -46,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classifiers/WindowsMobile.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="31" lean-forward="true" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
               </folding>
@@ -67,23 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classifiers/WindowsPC.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="e#21#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classifiers/classifiers.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="244">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -100,11 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classifiers/EBook.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="265">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#21#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifiers/WebBrowser.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
               </folding>
@@ -135,11 +140,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>And</find>
       <find>Smart</find>
       <find>Windows NT</find>
       <find>PC</find>
       <find>pc</find>
+      <find>And</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -163,13 +168,14 @@
         <option value="$PROJECT_DIR$/classifiers/WindowsMobile.go" />
         <option value="$PROJECT_DIR$/classifiers/Android.go" />
         <option value="$PROJECT_DIR$/classifiers/Console.go" />
-        <option value="$PROJECT_DIR$/parser_test.go" />
         <option value="$PROJECT_DIR$/classifiers/SmartTV.go" />
         <option value="$PROJECT_DIR$/classifiers/Linux.go" />
         <option value="$PROJECT_DIR$/classifiers/MacOS.go" />
         <option value="$PROJECT_DIR$/classifiers/WindowsPC.go" />
-        <option value="$PROJECT_DIR$/classifiers/classifiers.go" />
         <option value="$PROJECT_DIR$/classifiers/EBook.go" />
+        <option value="$PROJECT_DIR$/classifiers/WebBrowser.go" />
+        <option value="$PROJECT_DIR$/parser_test.go" />
+        <option value="$PROJECT_DIR$/classifiers/classifiers.go" />
       </list>
     </option>
   </component>
@@ -205,6 +211,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -246,21 +253,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParse_in_uagent - 2019.09.23 at 16h 57m 06s.xml">
-      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParse_in_uagent - 2019.09.23 at 16h 57m 22s.xml">
-      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParse_in_uagent - 2019.09.23 at 16h 57m 33s.xml">
-      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParse_in_uagent - 2019.09.23 at 16h 58m 57s.xml">
-      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParse_in_uagent - 2019.09.23 at 17h 00m 56s.xml">
-      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestParse_in_uagent - 2019.09.23 at 17h 01m 52s.xml">
       <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -276,21 +268,37 @@
     <history-entry file="TestParse_in_uagent - 2019.09.23 at 17h 42m 52s.xml">
       <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestParse_in_uagent - 2019.09.23 at 19h 32m 49s.xml">
+      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestParse_in_uagent - 2019.09.23 at 19h 33m 37s.xml">
+      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestParse_in_uagent - 2019.09.23 at 19h 34m 24s.xml">
+      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestParse_in_uagent - 2019.09.23 at 19h 37m 33s.xml">
+      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestParse_in_uagent - 2019.09.23 at 19h 38m 53s.xml">
+      <configuration name="TestParse in uagent" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,6 +313,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/parser_test.go</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/classifiers/iPhone.go">
@@ -358,26 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifiers/Console.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#21#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#21#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifiers/Android.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -405,6 +405,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/EBook.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/WindowsMobile.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/WebBrowser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classifiers/Linux.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -415,10 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifiers/WindowsMobile.go">
+    <entry file="file://$PROJECT_DIR$/classifiers/Console.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="-83">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
           </folding>
@@ -427,18 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classifiers/classifiers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifiers/EBook.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#21#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
