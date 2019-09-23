@@ -7,69 +7,69 @@ import (
 type WebBrowser struct{}
 
 func (WebBrowser) Eval(ua string, desc *Describer) bool {
-	if strings.Contains(ua, "Opera Mini") {
+	if strings.Contains(ua, "opera mini") {
 		desc.Browser = "Opera Mini"
 		return true
 	}
-	if (strings.Contains(ua, "Presto") && strings.Contains(ua, "Opera")) || strings.Contains(ua, "OPR/") {
+	if (strings.Contains(ua, "presto") && strings.Contains(ua, "opera")) || strings.Contains(ua, "opr/") {
 		desc.Browser = "Opera"
 		return true
 	}
-	if strings.Contains(ua, "Gecko") && strings.Contains(ua, "Firefox") {
+	if strings.Contains(ua, "gecko") && strings.Contains(ua, "firefox") {
 		desc.Browser = "Firefox"
 		return true
 	}
-	if strings.Contains(ua, ".NET") || strings.Contains(ua, "Trident") {
+	if strings.Contains(ua, ".net") || strings.Contains(ua, "trident") {
 		desc.Browser = "Internet Explorer"
 		return true
 	}
-	if strings.Contains(ua, "Edge") {
+	if strings.Contains(ua, "edge") {
 		desc.Browser = "Edge"
 		return true
 	}
-	if strings.Contains(ua, "Kubuntu") {
+	if strings.Contains(ua, "kubuntu") {
 		desc.Browser = "Konqueror"
 		return true
 	}
-	if strings.Contains(ua, "Maxthon") {
+	if strings.Contains(ua, "maxthon") {
 		desc.Browser = "Maxthon"
 		return true
 	}
-	if strings.Contains(ua, "Goanna") {
+	if strings.Contains(ua, "goanna") {
 		desc.Browser = "PaleMoon"
 		return true
 	}
-	if strings.Contains(ua, "Orca") {
+	if strings.Contains(ua, "orca") {
 		desc.Browser = "Orca"
 		return true
 	}
 
-	if strings.Contains(ua, "Puffin") {
+	if strings.Contains(ua, "puffin") {
 		desc.Browser = "Puffin"
 		return true
 	}
-	if strings.Contains(ua, "QQBrowser") {
+	if strings.Contains(ua, "qqbrowser") {
 		desc.Browser = "QQBrowser"
 		return true
 	}
 
-	if strings.Contains(ua, "UCBrowser") {
+	if strings.Contains(ua, "ucbrowser") {
 		desc.Browser = "UCBrowser"
 		return true
 	}
-	if strings.Contains(ua, "YaBrowser") {
+	if strings.Contains(ua, "yabrowser") {
 		desc.Browser = "Yandex"
 		return true
 	}
-	if strings.Contains(ua, "Chimera") {
+	if strings.Contains(ua, "chimera") {
 		desc.Browser = "Chimera"
 		return true
 	}
-	if strings.Contains(ua, "Chrome") {
+	if strings.Contains(ua, "chrome") {
 		desc.Browser = "Chrome"
 		return true
 	}
-	if !strings.Contains(ua, "Chrome") && strings.Contains(ua, "Safari") {
+	if !strings.Contains(ua, "chrome") && strings.Contains(ua, "safari") {
 		desc.Browser = "Safari"
 		return true
 	}

@@ -4,10 +4,10 @@ import (
 	"strings"
 )
 
-type EBook struct {}
+type EBook struct{}
 
-func (EBook)Eval(ua string,desc *Describer) bool{
-	if strings.Contains(ua,"Silk") || strings.Contains(ua,"NOOK BNTV") || strings.Contains(ua,"Kindle"){
+func (EBook) Eval(ua string, desc *Describer) bool {
+	if strings.Contains(ua, "silk") || strings.Contains(ua, "nook bntv") || strings.Contains(ua, "kindle") {
 		desc.Device = EBookReader
 		desc.Platform = EBookReader
 		desc.OS = "Fire OS"

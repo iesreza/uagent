@@ -2,10 +2,10 @@ package classifiers
 
 import "strings"
 
-type iPhone struct {}
+type iPhone struct{}
 
-func (iPhone)Eval(ua string,desc *Describer) bool{
-	if strings.Contains(ua,"(iPhone"){
+func (iPhone) Eval(ua string, desc *Describer) bool {
+	if strings.Contains(ua, "(iphone") {
 		desc.Device = "iPhone"
 		desc.Platform = Mobile
 		desc.OS = "iOS"

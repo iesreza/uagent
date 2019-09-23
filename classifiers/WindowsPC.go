@@ -5,19 +5,21 @@ import (
 	"strings"
 )
 
-type WinPC struct {}
-var regexWinPC= regexp.MustCompile(`Windows\s*NT\s*([\d\.]+)`)
-func (WinPC)Eval(ua string,desc *Describer) bool{
-	if strings.Contains(ua,"Windows NT"){
+type WinPC struct{}
+
+var regexWinPC = regexp.MustCompile(`windows\s*nt\s*([\d\.]+)`)
+
+func (WinPC) Eval(ua string, desc *Describer) bool {
+	if strings.Contains(ua, "windows nt") {
 		desc.Device = Computer
 		desc.Platform = Desktop
 		desc.OS = Windows
 		find := regexWinPC.FindStringSubmatch(ua)
 
-		if len(find) > 1{
-			if strings.HasPrefix(find[1],"10.") {
+		if len(find) > 1 {
+			if strings.HasPrefix(find[1], "10.") {
 				desc.Model = "Windows 10"
-			}else {
+			} else {
 				switch find[1] {
 				case "5.0":
 					desc.Model = "Windows 2000"
@@ -39,7 +41,7 @@ func (WinPC)Eval(ua string,desc *Describer) bool{
 			}
 		}
 
-		if strings.Contains(ua,"Touch"){
+		if strings.Contains(ua, "touch") {
 			desc.Platform = Tablet
 		}
 
