@@ -7,11 +7,19 @@ import (
 type WebBrowser struct{}
 
 func (WebBrowser) Eval(ua string, desc *Describer) bool {
-	if strings.Contains(ua, "opera mini") {
-		desc.Browser = "Opera Mini"
+	if strings.Contains(ua, "opera mini") || strings.Contains(ua, "opr/") || strings.Contains(ua, "opt/") {
+		desc.Browser = "Opera"
+		desc.Device = Mobile
+		desc.Platform = Mobile
 		return true
 	}
-	if (strings.Contains(ua, "presto") && strings.Contains(ua, "opera")) || strings.Contains(ua, "opr/") {
+	if strings.Contains(ua, "opios") {
+		desc.Browser = "Opera"
+		desc.Device = Mobile
+		desc.Platform = Mobile
+		desc.OS = IoS
+	}
+	if strings.Contains(ua, "presto") && strings.Contains(ua, "opera") {
 		desc.Browser = "Opera"
 		return true
 	}
@@ -19,7 +27,7 @@ func (WebBrowser) Eval(ua string, desc *Describer) bool {
 		desc.Browser = "Firefox"
 		return true
 	}
-	if strings.Contains(ua, ".net") || strings.Contains(ua, "trident") {
+	if strings.Contains(ua, ".net") || strings.Contains(ua, "trident") || strings.Contains(ua, "msie") {
 		desc.Browser = "Internet Explorer"
 		return true
 	}
@@ -67,6 +75,24 @@ func (WebBrowser) Eval(ua string, desc *Describer) bool {
 	}
 	if strings.Contains(ua, "chrome") {
 		desc.Browser = "Chrome"
+		return true
+	}
+	if strings.Contains(ua, "crios") {
+		desc.Browser = "Chrome"
+		desc.Device = Mobile
+		desc.Platform = Mobile
+		desc.OS = IoS
+		return true
+	}
+	if strings.Contains(ua, "fxios") {
+		desc.Browser = "Firefox"
+		desc.Device = Mobile
+		desc.Platform = Mobile
+		desc.OS = IoS
+		return true
+	}
+	if strings.Contains(ua, "vivaldi") {
+		desc.Browser = "Vivaldi"
 		return true
 	}
 	if !strings.Contains(ua, "chrome") && strings.Contains(ua, "safari") {
